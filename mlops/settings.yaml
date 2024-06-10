@@ -1,5 +1,48 @@
+emr_config: null
+features:
+  override: false
+features_defined:
+  add_new_block_v2: true
+  command_center: true
+  compute_management: false
+  custom_design: true
+  data_integration_in_batch_pipeline: true
+  dbt_v2: true
+  display_local_timezone: true
+  global_hooks: true
+  interactions: true
+  notebook_block_output_split_view: true
+  operation_history: true
+  polars: true
+features_override: {}
+help_improve_mage: true
+latest_version: 0.9.71
+name: unit_0_setup
+openai_api_key: null
+pipelines: null
+platform_settings:
+  projects:
+    unit_0_setup: {}
+    unit_1_data_preparation:
+      path: unit_1_data_preparation
+    unit_2_training: {}
+    unit_3_observability: {}
+project_uuid: b4e439ad1c3b451484692020667f2963
 projects:
+  homework_03:
+    path: homework_03
   unit_0_setup: {}
-  unit_1_data_preparation: {}
-  unit_2_training: {}
+  unit_1_data_preparation:
+    path: unit_1_data_preparation
+  unit_2_training:
+    path: unit_2_training
   unit_3_observability: {}
+remote_variables_dir: null
+repo_path: /home/src/mlops/unit_0_setup
+root_project: false
+settings:
+  active: false
+  uuid: unit_0_setup
+spark_config: null
+version: 0.9.71
+workspace_config_defaults: {}

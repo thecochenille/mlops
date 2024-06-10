@@ -3,8 +3,8 @@ training_set:
   object_uuid: data_preparation
   outdated_after:
     seconds: 700
-  project: unit_3_observability
-  repo_path: /home/src/mlops/unit_3_observability
+  project: unit_2_training
+  repo_path: /home/src/mlops/unit_2_training
   settings:
     build:
       partitions: 1
@@ -16,8 +16,8 @@ xgboost:
     weeks: null
   outdated_starting_at:
     hour_of_day: 12
-  project: unit_3_observability
-  repo_path: /home/src/mlops/unit_3_observability
+  project: unit_2_training
+  repo_path: /home/src/mlops/unit_2_training
   settings:
     xgboost:
       partitions: 1
